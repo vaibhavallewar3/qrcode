@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.user {
+  padding: 2vmax;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.qrfetch {
+  margin: 3vmax;
+}
+
+
+@media screen and (max-width:600px) {
+  .user {
+    display: flex;
+    flex-direction: column;
+  }
+}
